@@ -8,7 +8,7 @@ It is a web where you can save study materials in the laboratory.
 
 > ### Languages ​​and modules used  
 - Node.js
-    > 라이브러리 및 프레임워크
+    > Libraries and Frameworks
     - Typescript
     - Mongoose
     - Next.js

@@ -11,9 +11,8 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
     width: 100%;
-    height: calc(100vh - 4rem - 70px);
+    height: calc(100vh - 70px);
     background-color: rgba(240, 248, 255, 0.05);
 }
 
@@ -26,6 +25,7 @@
 }
 
 .container>.form>.inputs {
+    flex-grow: 5;
     display: flex;
     align-items: center;
     width: 100%;
@@ -33,11 +33,11 @@
 
 .container>.form>.inputs>label {
     font-size: 20px;
-    width: 250px;
+    width: 300px;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 10px 0;
+    flex-direction: column;
+    align-items: space-between;
+    justify-content: center;
 }
 
 .container>.form>.inputs>label>input {
@@ -46,7 +46,7 @@
     font-size: 15px;
 }
 
-.container>.form>.inputs>input[type="button"] {
+.container>.form>.inputs>input[type="submit"] {
     cursor: pointer;
     margin-top: 40px;
     border-radius: 15px;

@@ -11,7 +11,7 @@ export default function Home() {
         <title>ICBM_DB</title>
         <meta name="description" content="함께 성장하는 연구실" />
       </Head>
-      <Nav/>
+      <Nav />
       <div className={styles.container}>
         <div className={styles.header}>
           <div className={styles.content}>
@@ -37,7 +37,7 @@ export default function Home() {
         </div>
         <div className={styles.page}>
           <div className={styles.title}>
-            ICBM Database란?
+            ICBM DB 사용법
           </div>
           <div className={styles.contents}>
             <Image src={'/Home/page2.jpg'} alt={'page2'} width={200} height={140} />

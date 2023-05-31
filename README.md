@@ -5,7 +5,8 @@ This project is for students of Jeonju University ICBM Lab.
 ICBM_Database collects tips or codes for organized study to help lab students study.  
 A project where each other can help each other in their studies  
 It is a web where you can save study materials in the laboratory.
-
+As for the login method, we want to use Discord's Oauth2 login method.  
+  
 > ### Languages ​​and modules used  
 - Node.js
     > Libraries and Frameworks

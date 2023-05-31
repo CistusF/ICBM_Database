@@ -1,6 +1,11 @@
 html, body {
   margin: 0;
   background-color: #252525;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  user-select: none;
+  -ms-user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
 }
 
 * {

@@ -8,7 +8,7 @@ export default function Nav() {
         <>
             <Head>
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
-                <link rel="icon" href="/favicon.ico" />
+                <link rel="icon" href="/logo.ico" />
             </Head>
             <div className={styles.nav}>
                 <Link href={"/"} className={styles.logo}>

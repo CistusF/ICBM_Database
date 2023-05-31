@@ -33,7 +33,7 @@
 .nav>.items>* {
     color: #e2e2e2;
     text-decoration: none;
-    transition: color 500ms ease-in-out, font-size 500ms ease;
+    transition: color 300ms ease-in-out, font-size 300ms ease;
 }
 
 .nav>.items>*:hover {

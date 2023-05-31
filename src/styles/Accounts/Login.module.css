@@ -5,6 +5,7 @@
     padding: 0 4rem;
     height: calc(100vh - 70px);
     color: #e2e2e2;
+    transition: padding 500ms;
 }
 
 .container>.form {
@@ -51,4 +52,10 @@
     margin-top: 40px;
     border-radius: 15px;
     padding: 10px 30px;
+}
+
+@media (max-width: 767px) {
+    .container {
+        padding: 0 0rem;
+    }
 }

@@ -133,6 +133,14 @@
     width: 100vw;
   }
 
+  .header .content>.title {
+    font-size: 35px;
+  }
+
+  .header>.content>.description {
+    font-size: 20px;
+  }
+
   .page {
     background-image: url(/Home/page1.jpg);
     background-repeat: no-repeat;
@@ -145,6 +153,7 @@
 
   .page:last-child {
     background-image: url(/Home/page2.jpg);
+    height: 900px;
   }
 
   .page>.title {

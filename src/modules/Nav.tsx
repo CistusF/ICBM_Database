@@ -7,6 +7,7 @@ export default function Nav() {
     return (
         <>
             <Head>
+                <meta name="og:image" content="/ogImage.png" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <link rel="icon" href="/logo.ico" />
             </Head>

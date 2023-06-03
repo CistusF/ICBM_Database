@@ -1,10 +1,10 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import styles from 'modules/styles/Main/index.module.css'
 
 import Nav from 'modules/modules/Nav'
 
 export default function Home() {
+  // Add checking users jwt token is valid
   return (
     <>
       <Head>
@@ -19,6 +19,9 @@ export default function Home() {
             <p className={styles.description}>환영합니다 Username님.</p>
           </div>
           <div className={styles.background}></div>
+        </div>
+        <div className={styles.categories}>
+          {/* Add User List */}
         </div>
       </div>
     </>
